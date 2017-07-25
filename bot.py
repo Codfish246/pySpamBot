@@ -224,6 +224,7 @@ async def on_message(message):
         count += 1
         print("sent", count)
         time.sleep(delay)
+        #paste the extras above the count = 0
         count = 0
 
 client.run('token', bot=False)
