@@ -23,7 +23,7 @@ async def on_message(message):
         await client.send_message(message.channel, 'test')
         print("sent test")
         """
-       3 while (True):
+        while (True):
             await client.send_message(message.channel, random.randint(1,1000))
             count += 1
             print("sent", count)
