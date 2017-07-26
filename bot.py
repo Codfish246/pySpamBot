@@ -18,7 +18,7 @@ count = 0
 @client.event
 async def on_message(message):
     global count
-    if message.content.startswith('!numbers'):
+    if message.content.startswith('!numberspam'):
         while (True): #was just testing while true, to be normal just remove and unindent
             await client.send_message(message.channel, random.randint(1,1000))
             count += 1
