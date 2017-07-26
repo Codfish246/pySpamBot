@@ -19,11 +19,7 @@ count = 0
 async def on_message(message):
     global count
     if message.content.startswith('!numbers'):
-        """
-        await client.send_message(message.channel, 'test')
-        print("sent test")
-        """
-        while (True):
+        while (True): #was just testing while true, to be normal just remove and unindent
             await client.send_message(message.channel, random.randint(1,1000))
             count += 1
             print("sent", count)
