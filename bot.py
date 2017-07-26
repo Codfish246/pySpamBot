@@ -12,8 +12,8 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-delay = 0.8 #edit this for the delay in sending messages
-count = 0 #initalisation for a counting var
+delay = 0.8
+count = 0
 
 @client.event
 async def on_message(message):
@@ -23,208 +23,207 @@ async def on_message(message):
         await client.send_message(message.channel, 'test')
         print("sent test")
         """
-        #copy and paste these to adjust amount of messages, 50 by default xd, not got a good way to do these yet
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        await client.send_message(message.channel, random.randint(1,1000))
-        count += 1
-        print("sent", count)
-        time.sleep(delay)
-        #paste the extras above the count = 0
-        count = 0
+       3 while (True):
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            await client.send_message(message.channel, random.randint(1,1000))
+            count += 1
+            print("sent", count)
+            await asyncio.sleep(delay)
+            count = 0
 
 client.run('token', bot=False)
