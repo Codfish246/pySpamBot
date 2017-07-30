@@ -1,3 +1,4 @@
+#OUTDATED USE V2
 import discord
 import asyncio
 import random
