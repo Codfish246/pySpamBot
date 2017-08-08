@@ -1,10 +1,13 @@
 # pySpamBot
 
-Made this for a spam (cowbelly spam server) server, kinda W.I.P atm and threw it together really quick but ye xd, ~~**Also it has one major issue at the moment, other people may be able to trigger it which isnt allowed/supposed to happen in a self bot, so ye, i fixé tho.** **So just use with caution and most probably change prefix atm**~~ **UPDATED** **Now you just have put ye user id in the USER ID HERE and it will only be triggered by you and be gud, must implement this change or redownload :)**
+Made this for a spam (cowbelly spam server) server, kinda W.I.P atm and threw it together really quick but ye xd, **UPDATED** **Now you just have put ye user id in the USER ID HERE and it will only be triggered by you and be gud, must implement this change or redownload :)**
+
 
 ## New version/v2
 Much efficient very improved
 
+## Disclaimer
+Nothing that this bot makes happen is my fault, you are responsible as what you do with it.
 
 ### Related (Projects from my friends etc.)
 
